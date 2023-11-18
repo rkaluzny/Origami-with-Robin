@@ -1,0 +1,44 @@
+@keyframes moveDown {
+    0% {
+        top: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+    }
+    100% {
+        top: 0; /* Endposition, Standardposition */
+    }
+  }
+  
+  @keyframes moveright {
+    0%, 25%, 50% {
+      right: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+  }
+  100% {
+      right: 0; /* Endposition, Standardposition */
+    }
+  }
+  
+  @keyframes moveright2 {
+    0% {
+      right: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+  }
+  100% {
+      right: 0; /* Endposition, Standardposition */
+    }
+  }
+  
+  @keyframes moveleft {
+    0%, 30%, 60% {
+      left: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+  }
+  100% {
+      left: 0; /* Endposition, Standardposition */
+    }
+  }
+  
+  @keyframes typing {
+    from {
+       width: 0;
+    }
+    to {
+       width: 48ch;
+    }
+  }

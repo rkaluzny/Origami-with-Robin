@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Plan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/animation.css">
+    <link rel="stylesheet" href="style/media.css">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="toggle_button">
+      <label for="toggle_button" class="toggle_button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </label>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="expandable_li">
+              <input type="checkbox" id="products_checkbox">
+              <label for="products_checkbox">Media</label>
+              <ul class="dropdown">
+                  <li><a href="media.html">SocialMedia</a></li>
+                  <li><a href="video-plan.html">Video Plan</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+              </ul>
+          </li>
+          <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+  </nav>
+  <a href="index.html"><img class="logo" src="img/Origami with Robin (1).jpg"></a>
+  <img onclick="changeImg()" src="img/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" class="forward">
+  <img onclick="changeImgBack()" src="img/arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" class="back">
+  <img ondblclick="changeImg()" name="slide" class="banner" />
+    <br />
+    <br />
+    <div>
+      <div class="week" style="background-color: red">
+        <h1>Monday</h1>
+        <br />
+        <h1>Youtube Video</h1>
+      </div>
+      <div class="week" style="background-color: green">
+        <h1>Tuesday</h1>
+        <br />
+        <h1>a <a href="blog.html" style="font-size: 2vw;">blog post</a></h1>
+      </div>
+      <div class="week">
+        <h1>Wednesday</h1>
+      </div>
+      <div class="week">
+        <h1>Thursday</h1>
+      </div>
+      <div class="week" style="background-color: red">
+        <h1>Friday</h1>
+        <br />
+        <h1>Youtube Video</h1>
+      </div>
+      <div class="week">
+        <h1>Saturday</h1>
+      </div>
+      <div class="week" style="background-color: blueviolet;">
+        <h1>Sunday</h1>
+        <br>
+        <h1>Livestream on YouTube <br>
+            or Twitch</h1>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="fooder">
+      <a class="fooder-link" href="imprint.html">Imprint</a>
+      <a href="https://www.youtube.com/@OrigamiwithRobin" target="_blank"
+        ><img class="fooder-link" src="img/youtube-1837872_1280.png"
+      /></a>
+      <a href="https://www.instagram.com/robinjeromekaluzmy/" target="_blank"
+        ><img class="fooder-link" src="img/instagram-3814080_1280.png"
+      /></a>
+      <a
+        href="https://www.facebook.com/profile.php?id=61551433100329"
+        target="_blank"
+        ><img class="fooder-link" src="img/facebook-770688_1280.png"
+      /></a>
+      <a href="https://discord.gg/ZWBnpKv6rS" target="_blank"
+        ><img class="fooder-link" src="img/discord-6832787_640.png"
+      /></a>
+      <a href="https://twitch.tv/origami_with_robin" target="_blank"
+        ><img class="fooder-link" src="img/twitch-3384022_1280.png"
+      /></a>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h4>Copyright © Origami with Robin 2023</h4>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
