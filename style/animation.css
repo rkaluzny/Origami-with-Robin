@@ -1,44 +1,44 @@
 @keyframes moveDown {
     0% {
-        top: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+        top: -30px;
+        opacity: 0.5;
     }
     100% {
-        top: 0; /* Endposition, Standardposition */
+        top: 0;
+        opacity: 1;
     }
   }
   
   @keyframes moveright {
     0%, 25%, 50% {
-      right: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+      right: -30px;
+      opacity: 0.8;
   }
   100% {
-      right: 0; /* Endposition, Standardposition */
+      right: 0; 
+      opacity: 1;
     }
   }
   
   @keyframes moveright2 {
     0% {
-      right: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+      right: -30px;
+      opacity: 0.8;
+
   }
   100% {
-      right: 0; /* Endposition, Standardposition */
+      right: 0;
+      opacity: 1;
     }
   }
   
   @keyframes moveleft {
     0%, 30%, 60% {
-      left: -100px; /* Startposition oberhalb des sichtbaren Bereichs */
+      left: -30px;
+      opacity: 0.8;
   }
   100% {
-      left: 0; /* Endposition, Standardposition */
-    }
-  }
-  
-  @keyframes typing {
-    from {
-       width: 0;
-    }
-    to {
-       width: 48ch;
+      left: 0;
+      opacity: 1;
     }
   }

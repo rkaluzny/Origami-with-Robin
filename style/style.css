@@ -137,7 +137,9 @@ video {
 .banner {
   width: 100%;
   height: auto;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: -1;
   border-radius: 20px;
   animation: moveDown 0.7s ease-in-out forwards;
 }
@@ -189,11 +191,16 @@ video {
 .profil {
   width: 30%;
   height: auto;
-  border-radius: 1000px;
   max-width: 350px;
   animation-name: example;
   animation-duration: 2s;
   position: relative;
+  border: 4vw solid;
+  border-color: rgb(145, 0, 0);
+  border-bottom-right-radius: 20vw;
+  border-top-left-radius: 45vw;
+  border-bottom-left-radius: 30vw;
+  border-top-right-radius: 55vw;
 }
 
 .members {
@@ -252,9 +259,12 @@ video {
 
 .fooder {
   width: 100%;
-  height: 350px;
+  height: 500px;
   background-color: rgb(87, 87, 87);
-  border-radius: 90px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  border: 2px solid;
+  border-color: #000;
   text-align: center;
 }
 
@@ -389,20 +399,4 @@ video {
   align-items: center;
   margin: auto;
   border-radius: 10px;
-}
-
-.get-started {
-  width: 15%;
-  height: 4vw;
-  position: absolute;
-  left: 10%;
-  top: 250px;
-  background-color: rgb(145, 0, 0);
-  font-size: 2vw;
-  cursor: pointer;
-  z-index: 4;
-}
-
-.get-started:hover {
-  background-color: rgb(160, 0, 0);
 }
